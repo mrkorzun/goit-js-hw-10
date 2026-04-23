@@ -1,0 +1,36 @@
+@import url('simplelightbox/dist/simple-lightbox.min.css');
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  @media only screen and (max-width: 768px) {
+    width: 360px;
+  }
+  @media only screen and (max-width: 320px) {
+    width: 360px;
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  @media only screen and (max-width: 768px) {
+    gap: 16px;
+  }
+}
+
+.gallery-item {
+  flex-basis: calc((100% - 48px) / 3);
+  @media only screen and (max-width: 768px) {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  @media only screen and (max-width: 320px) {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Task: Form</title>
+    <!-- modern normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- External js -->
+    <script type="module" src="./js/2-form.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <ul class="nav-bar">
+          <li class="nav-item">
+            <a href="./1-gallery.html" class="nav-item-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="./2-form.html" class="nav-item-link">Form</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+      <div class="form">
+        <form class="feedback-form" autocomplete="off">
+          <label>
+            Email
+            <input
+              class="email-input"
+              type="email"
+              name="email"
+              placeholder="Введiть iмейл"
+              autofocus
+            />
+          </label>
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="8"
+              placeholder="Введiть повiдомлення"
+            ></textarea>
+          </label>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

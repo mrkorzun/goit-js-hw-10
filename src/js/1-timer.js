@@ -1,5 +1,5 @@
 import flatpickr from 'flatpickr';
-import iziToast from 'izitoast';
+// import iziToast from 'izitoast';
 
 const options = {
   enableTime: true,

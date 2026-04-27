@@ -91,3 +91,17 @@ button:hover,
 button:focus {
   background: #6c8cff;
 }
+
+.iziToast.iziToast-color-green {
+  background: rgb(89, 161, 13);
+  border-color: rgba(166, 239, 184, 0.9);
+}
+
+.iziToast.iziToast-color-red {
+  background: rgb(239, 64, 64);
+  border-color: rgba(255, 175, 180, 0.9);
+}
+
+.iziToast > .iziToast-body .iziToast-message {
+  color: #fff;
+}

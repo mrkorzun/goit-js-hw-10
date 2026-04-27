@@ -6,8 +6,8 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 
-> 🎓 Домашнє завдання №10 курсу **JavaScript** від **GoIT**. Закріплення знань
-> про асинхронний код, таймери, інтервали та промісі. ⏳
+> 🎓 Домашнє завдання №10 курсу **JavaScript** від **GoIT**. <br>Закріплення
+> знань про асинхронний код, таймери, інтервали та промісі. ⏳
 
 ---
 

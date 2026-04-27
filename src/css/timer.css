@@ -2,7 +2,7 @@
   display: flex;
 }
 
-#datetime-picker {
+.flatpickr-input {
   width: 272px;
   height: 40px;
 
@@ -11,6 +11,7 @@
   margin-bottom: 32px;
 
   padding-left: 16px;
+  padding-right: 10px;
 
   border: 1px solid #808080;
   border-radius: 4px;
@@ -32,6 +33,13 @@
   border: 1px solid #4e75ff;
 }
 
+#datetime-picker:disabled {
+  background-color: #fafafa;
+  color: #808080;
+  cursor: not-allowed;
+  border-color: #dcdcdc;
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -48,6 +56,12 @@ button {
 button:hover,
 button:active {
   background: #6c8cff;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
 }
 
 .field {

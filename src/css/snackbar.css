@@ -1,1 +1,76 @@
-/* @import url('izitoast/dist/css/iziToast.min.css'); */
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 36px;
+}
+
+.label-0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 8px;
+  margin-bottom: 16px;
+
+  width: 360px;
+  height: 40px;
+
+  border-radius: 4px;
+  border: 2px solid #808080;
+}
+
+.fieldset {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 24px;
+  padding-top: 17px;
+
+  width: 360px;
+  height: 78px;
+
+  border-radius: 4px;
+  border: 2px solid #808080;
+}
+
+.legend {
+  padding-left: 5px;
+  width: 50px;
+  background-color: #fff;
+}
+
+.label-1,
+.label-2 {
+  display: flex;
+  align-items: center;
+}
+
+.label-1 {
+  padding-left: 54px;
+}
+
+.label-2 {
+  margin-left: 54px;
+}
+
+.radio-input {
+  width: 20px;
+  height: 20px;
+
+  margin-right: 14px;
+}
+
+button {
+  width: 360px;
+  height: 40px;
+
+  border-radius: 8px;
+  background: #4e75ff;
+}
+
+button:hover,
+button:focus {
+  background: #6c8cff;
+}

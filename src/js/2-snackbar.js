@@ -1,1 +1,1 @@
-
+import iziToast from 'izitoast';

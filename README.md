@@ -12,7 +12,7 @@
 ---
 
 <p align="center">
-  <img src="./preview.png" alt="Preview" width="600">
+  <img src="./preview.png" alt="Preview" width="900">
 </p>
 
 ## 📚 Зміст

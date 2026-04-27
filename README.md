@@ -1,4 +1,4 @@
-# 🚀 goit-js-hw-10 — Таймер та Генератор промісів
+# 🚀 Таймер та Генератор промісів
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)

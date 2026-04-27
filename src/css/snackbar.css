@@ -105,3 +105,11 @@ button:focus {
 .iziToast > .iziToast-body .iziToast-message {
   color: #fff;
 }
+
+.iziToast > .iziToast-body .iziToast-icon.ico-success {
+  background: none;
+}
+
+.iziToast > .iziToast-body .iziToast-icon.ico-error {
+  background: none;
+}

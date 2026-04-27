@@ -14,7 +14,6 @@ form.addEventListener('submit', event => {
       iziToast.success({
         message: `✅ Fulfilled promise in ${delay}ms`,
         position: 'topRight',
-        timeout: 100000,
       });
     })
     .catch(delay => {

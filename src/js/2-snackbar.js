@@ -8,6 +8,18 @@ form.addEventListener('submit', event => {
   const delay = Number(event.currentTarget.elements.delay.value);
   const state = event.currentTarget.elements.state.value;
 
+  function createPromise(delay, state) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (state === 'fulfilled') {
+          resolve(delay);
+        } else {
+          reject(delay);
+        }
+      }, delay);
+    });
+  }
+
   createPromise(delay, state)
     .then(delay => {
       console.log(`✅ Fulfilled promise in ${delay}ms`);
@@ -25,15 +37,3 @@ form.addEventListener('submit', event => {
     });
   form.reset();
 });
-
-function createPromise(delay, state) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      if (state === 'fulfilled') {
-        resolve(delay);
-      } else {
-        reject(delay);
-      }
-    }, delay);
-  });
-}
